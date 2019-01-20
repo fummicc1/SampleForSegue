@@ -14,6 +14,7 @@
 		D3692B7821F439F7000C8064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3692B7621F439F7000C8064 /* LaunchScreen.storyboard */; };
 		D3692B8321F439F7000C8064 /* SampleForSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3692B8221F439F7000C8064 /* SampleForSegueTests.swift */; };
 		D3692B8E21F439F7000C8064 /* SampleForSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3692B8D21F439F7000C8064 /* SampleForSegueUITests.swift */; };
+		D3692B9C21F43A51000C8064 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3692B9B21F43A51000C8064 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D3692B8921F439F7000C8064 /* SampleForSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3692B8D21F439F7000C8064 /* SampleForSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForSegueUITests.swift; sourceTree = "<group>"; };
 		D3692B8F21F439F7000C8064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3692B9B21F43A51000C8064 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		D3692B6C21F439F6000C8064 /* SampleForSegue */ = {
 			isa = PBXGroup;
 			children = (
+				D3692B7921F439F7000C8064 /* Info.plist */,
 				D3692B6D21F439F6000C8064 /* AppDelegate.swift */,
+				D3692B9B21F43A51000C8064 /* SecondViewController.swift */,
 				D3692B6F21F439F6000C8064 /* ViewController.swift */,
-				D3692B7121F439F6000C8064 /* Main.storyboard */,
 				D3692B7421F439F7000C8064 /* Assets.xcassets */,
 				D3692B7621F439F7000C8064 /* LaunchScreen.storyboard */,
-				D3692B7921F439F7000C8064 /* Info.plist */,
+				D3692B7121F439F6000C8064 /* Main.storyboard */,
 			);
 			path = SampleForSegue;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3692B9C21F43A51000C8064 /* SecondViewController.swift in Sources */,
 				D3692B7021F439F6000C8064 /* ViewController.swift in Sources */,
 				D3692B6E21F439F6000C8064 /* AppDelegate.swift in Sources */,
 			);
